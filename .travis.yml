@@ -6,3 +6,6 @@ jdk:
   
 script:
   mvn install -DskipTests=true
+  
+repo_token: 
+  4uAM5mWiWDzp9qfnLRX0Xeo640l0NYPZN
