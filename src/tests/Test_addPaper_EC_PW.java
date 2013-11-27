@@ -37,18 +37,25 @@ public class Test_addPaper_EC_PW {
 
 	@Test
 	public void TestCase2() {
+		paperround.addPaper(-1);
+		paperround.addMagazine(60);
+		assertEquals(0, paperround.getPapers().size());
+	}
+
+/*	@Test
+	public void TestCase3() {
 		paperround.addPaper(163);
 		assertEquals(1, paperround.getPapers().size());
 	}
 	
 	@Test
-	public void TestCase3() {
+	public void TestCase4() {
 		for (int i = 0; i < 100; i++) {
 			paperround.addPaper(1);
 		}
 		assertEquals(60, paperround.getPapers().size());
 	}
-
+*/
 	@After
 	public void TearDown() {
 		paperround = null;

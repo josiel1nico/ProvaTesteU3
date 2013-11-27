@@ -22,7 +22,7 @@ public class Test_query_floor_EC_EC {
 		assertEquals(1, lift.query_floor());
 	}
 
-	@Test
+/*	@Test
 	public void TestCase2() {
 		lift.setFloor(2);
 		assertEquals(2, lift.query_floor());
@@ -45,7 +45,7 @@ public class Test_query_floor_EC_EC {
 		lift.setFloor(5);
 		assertEquals(5, lift.query_floor());
 	}
-	
+*/	
 
 	@After
 	public void TearDown() {

@@ -38,7 +38,7 @@ public class Test_remove_EC_PW {
 		paperround.remove(1);
 		assertEquals(0, paperround.getPapers().size());
 	}
-
+	/*
 	@Test
 	public void TestCase3() {
 		paperround.addPaper(1);
@@ -53,7 +53,7 @@ public class Test_remove_EC_PW {
 		paperround.remove(163);
 		assertEquals(0, paperround.getPapers().size());
 	}
-
+*/
 	@After
 	public void TearDown() {
 		paperround = null;

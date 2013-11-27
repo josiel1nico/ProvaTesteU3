@@ -23,7 +23,7 @@ public class Test_go_down_EC_EC {
 		assertEquals(1, lift.getFloor());
 	}
 
-	@Test
+/*	@Test
 	public void TestCase2() {
 		lift.setFloor(2);
 		lift.go_down();
@@ -50,7 +50,7 @@ public class Test_go_down_EC_EC {
 		lift.go_down();
 		assertEquals(4, lift.getFloor());
 	}
-	
+*/	
 	
 	@After
 	public void TearDown() {
