@@ -86,8 +86,6 @@
 		                                        <testTarget>1.7</testTarget>
 		                                </configuration>
 		                        </plugin>
-	                	</plugins>
-                                <plugins>
                                         <plugin>
                                                 <groupId>org.jacoco</groupId>
                                                 <artifactId>jacoco-maven-plugin</artifactId>
