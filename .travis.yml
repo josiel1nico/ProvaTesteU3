@@ -1,4 +1,6 @@
 language: java
 
+mvn install -DskipTests=true
+
 after_success:
 - mvn clean cobertura:cobertura coveralls:cobertura
