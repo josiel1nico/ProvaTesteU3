@@ -8,7 +8,6 @@
         <version>1.0</version>
 
         <dependencies>
-
  
                 <dependency>
                         <groupId>junit</groupId>
@@ -54,18 +53,6 @@
                                         <version>2.0.1</version>
                                         <configuration>
                                                 <repoToken>QloICX84FmKVcMrTxvRjsJe9SDXMLgPTy</repoToken> 
-                                                <instrumentation>
-                                                     <excludes>
-                                                    <exclude>**/*Test.class</exclude>
-                                                    <exclude>**/*Test.java</exclude>
-                                                    <exclude>**/Main*.class</exclude>
-                                                    <exclude>**/Main*.java</exclude>
-                                                    <exclude>**/I*.class</exclude>
-                                                    <exclude>**/I*.java</exclude>
-                                                    <exclude>**/*Exception.class</exclude>
-                                                    <exclude>**/*Exception.java</exclude>
-                                                  </excludes>
-                                               </instrumentation>
                                         </configuration>
                                 </plugin>
                         </plugins>
@@ -80,16 +67,6 @@
                                         <target>1.7</target>
                                         <testSource>1.7</testSource>
                                         <testTarget>1.7</testTarget>
-                                                  <excludes>
-                                                    <exclude>**/*Test.class</exclude>
-                                                    <exclude>**/*Test.java</exclude>
-                                                    <exclude>**/Main*.class</exclude>
-                                                    <exclude>**/Main*.java</exclude>
-                                                    <exclude>**/I*.class</exclude>
-                                                    <exclude>**/I*.java</exclude>
-                                                    <exclude>**/*Exception.class</exclude>
-                                                    <exclude>**/*Exception.java</exclude>
-                                                  </excludes>
                                 </configuration>
                         </plugin>
                 </plugins>
