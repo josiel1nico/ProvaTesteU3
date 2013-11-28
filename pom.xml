@@ -23,8 +23,6 @@
 
         <build>
                 <sourceDirectory>src/main</sourceDirectory>
-        #       <testSourceDirectory>src/tests</testSourceDirectory>
-        #       <defaultGoal>install</defaultGoal>
 
                 <pluginManagement>
                         <plugins>
